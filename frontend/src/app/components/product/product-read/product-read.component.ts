@@ -9,7 +9,7 @@ import { Product } from '../product.model';
 })
 export class ProductReadComponent implements OnInit {
 
-  products: Product[] | undefined;
+  products!: Product[]; //precisei adicionar ! pois o angular estava pedindo a inicialização da variavel
   displayedColumns = ['id', 'name', 'price', 'action'];
 
   constructor(private ProductService: ProductService) { }

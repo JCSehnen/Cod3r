@@ -3,5 +3,5 @@ import { StringMapWithRename } from "@angular/compiler/src/compiler_facade_inter
 export interface HeaderData{
     title: string
     icon: string
-    route: string
+    routeUrl: string
 }
